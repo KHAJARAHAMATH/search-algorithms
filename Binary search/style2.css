@@ -1,0 +1,67 @@
+body{
+    text-align:center;
+    font-family:Arial, sans-serif;
+    background:#f4f4f4;
+}
+
+h1{
+    color:#333;
+}
+
+#array-container{
+    display:flex;
+    justify-content:center;
+    gap:12px;
+    margin-top:50px;
+}
+
+.box{
+    width:70px;
+    height:70px;
+    background:#3498db;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:24px;
+    border-radius:10px;
+    transition:0.5s;
+}
+
+.range{
+    background:#f1c40f;
+}
+
+.mid{
+    background:#e67e22;
+    transform:scale(1.2);
+}
+
+.found{
+    background:#27ae60;
+    transform:scale(1.3);
+}
+
+.removed{
+    background:#bdc3c7;
+    opacity:0.4;
+}
+
+.controls{
+    margin-top:40px;
+}
+
+input{
+    padding:10px;
+    font-size:18px;
+}
+
+button{
+    padding:10px 20px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+#status{
+    margin-top:30px;
+}
